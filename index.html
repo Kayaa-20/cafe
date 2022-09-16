@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome-6.0.0/css/all.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+	<title>Anonim Cafe</title>
+</head>
+<body>
+	<div class="container-fluid">
+		<!-- HEADER -->
+		<div class="row align-items-center" id="header">
+			<div class="col-12 header-text">
+				<div class="row justify-content-center">
+					<div class="col-3 col-sm-2 col-xl-1">
+						<img src="images/cLogo.png" class="img-fluid">
+					</div>
+					<div class="col-12 text-center">
+						<h2>Anonim <span> C</span>afe</h2>
+						<p>Coffee Makes You Happy</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<nav class="navbar fixed-top">
+		<div class="container-fluid justify-content-end">
+			<div class="d-none d-lg-block navigation">
+				<ul>
+					<li><a href="#header" >Home</a></li>
+					<li><a href="#aboutPage">About</a></li>
+					<li><a href="#products">Our Products</a></li>
+					<li><a href="#shops">Our Shops</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+				
+			</div>
+			<button class="navbar-toggler d-block d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+				<span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+			</button>
+			<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" style="display: inline-block;">
+				<div class="offcanvas-header p-3">
+					<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+				</div>
+				<div class="offcanvas-body" >
+					<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#header"><i class="fa-solid fa-house p-3"></i>Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#aboutPage"><i class="fa-solid fa-mug-saucer p-3"></i>About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#products">
+								<i class="fa-solid fa-boxes-stacked p-3"></i>Our Products
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#shops"><i class="fa-solid fa-store p-3"></i>Our Shops</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contact"><i class="fa-solid fa-phone-flip p-3"></i>Contact</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<div class="container-fluid">
+		<!-- ABOUT -->
+		<div class="row align-items-center justify-content-center" id="aboutPage" >
+			<div class="col-12">
+				<div class="row justify-content-center">
+					<div class="col-3 text-center mt-5">
+						<h2>About</h2>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-lg-6 px-3 px-md-5 text order-2 order-lg-1">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+				</p>
+			</div>
+			<div class="col-8 col-md-5 pic order-1 order-lg-2 text-center">
+				<img src="images/7.jpg" class="img-fluid">
+			</div>
+		</div>
+		<!-- PRODUCTS -->
+		<div class="row align-items-center" id="products">
+			<div class="col-12">
+				<div class="row justify-content-center">
+					<div class="col-5 col-md-3 text-center mt-4">
+						<h2>Our Products</h2>
+					</div>
+				</div>
+			</div>
+			<div class="col-12">
+				<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
+					<!-- First Product -->
+					<div class="col text-center pb-3 pb-md-0">
+						<div class="row justify-content-center">
+							<div class="col-3 col-sm-4">
+								<img src="images/product.jpg" class="img-fluid">
+							</div>
+							<div class="col-6 col-sm-12 ps-2 ps-sm-0">
+								<div class="row">
+									<div class="col-12 pt-3 pb-1">
+										<h5>Product Name</h5>
+										<p>Description text will be here.</p>
+									</div>
+									<div class="col-12">
+										<h6>000 &#8378;</h6>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Second -->
+					<div class="col text-center">
+						<div class="row justify-content-center">
+							<div class="col-3 col-sm-4">
+								<img src="images/product.jpg" class="img-fluid">
+							</div>
+							<div class="col-6 col-sm-12 ps-2 ps-sm-0">
+								<div class="row">
+									<div class="col-12 pt-3 pb-1">
+										<h5>Product Name</h5>
+										<p>Description text will be here.</p>
+									</div>
+									<div class="col-12">
+										<h6>000 &#8378;</h6>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Third -->
+					<div class="col  d-none d-md-block  text-center">
+						<div class="row justify-content-center">
+							<div class="col-4">
+								<img src="images/product.jpg" class="img-fluid">
+							</div>
+							<div class="col-6 col-sm-12 ps-2 ps-sm-0">
+								<div class="row">
+									<div class="col-12 pt-3 pb-1">
+										<h5>Product Name</h5>
+										<p>Description text will be here.</p>
+									</div>
+									<div class="col-12">
+										<h6>000 &#8378;</h6>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Fourth -->
+					<div class="col d-none d-lg-block  text-center">
+						<div class="row justify-content-center">
+							<div class="col-4">
+								<img src="images/product.jpg" class="img-fluid">
+							</div>
+							<div class="col-6 col-sm-12 ps-2 ps-sm-0">
+								<div class="row">
+									<div class="col-12 pt-3 pb-1">
+										<h5>Product Name</h5>
+										<p>Description text will be here.</p>
+									</div>
+									<div class="col-12">
+										<h6>000 &#8378;</h6>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12" id='moreBtn'>
+						<button type="button">More</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- OUR SHOPS -->
+		<div class="row justify-content-center" id="shops">
+			<div class="col-5 col-md-3 text-center mt-5">
+				<h2>Our Shops</h2>
+			</div>
+			<div class="w-100"></div>
+			<div class="col-12 d-block d-lg-none">
+				<div id="carouselExampleControls" class="carousel slide text-light" data-bs-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active text-center px-0 px-sm-4 cafe-1">
+							<img src="images/cafe-1.jpg" class="img-fluid">
+							<br>
+							<div class="py-3">
+								<h3>Adress</h3>
+								<p class="px-md-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+						</div>
+						<div class="carousel-item  text-center px-0 px-sm-4 cafe-1">
+							<img src="images/cafe-2.jpg" class="img-fluid">
+							<br>
+							<div class="py-3">
+								<h3>Adress</h3>
+								<p class="px-md-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+						</div>
+						<div class="carousel-item  text-center px-0 px-sm-4 cafe-1">
+							<img src="images/cafe-3.jpg" class="img-fluid">
+							<br>
+							<div class="py-3">
+								<h3>Adress</h3>
+								<p class="px-md-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+						</div>
+					</div>
+					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+				</div>
+			</div>
+			<!-- Grid Area -->
+			<div class="col-12 d-none d-lg-block" id='shopDiv'>
+				<div class="row row-cols-lg-3">
+					<div class="col px-1 p-xl-4">
+						<div class="row justify-content-center">
+							<div class="col-12 p-2 cafe-1">
+								<img src="images/cafe-1.jpg" class="img-fluid">
+							</div>
+							<div class="col-9  col-xl-8">
+								<h3>Adress</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col px-1 p-xl-4">
+						<div class="row justify-content-center">
+							<div class="col-12 p-2 cafe-2">
+								<img src="images/cafe-2.jpg" class="img-fluid">
+							</div>
+							<div class="col-9  col-xl-8">
+								<h3>Adress</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col px-1 p-xl-4">
+						<div class="row justify-content-center">
+							<div class="col-12 p-2 cafe-3">
+								<img src="images/cafe-3.jpg" class="img-fluid">
+							</div>
+							<div class="col-9 col-xl-8">
+								<h3>Adress</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- CONTACT -->
+		<div class="row justify-content-center" id="contact">
+			<div class="col-5 col-md-3 text-center mt-5">
+				<h2>Contact</h2>
+			</div>
+			<div class="w-100"></div>
+			<div class="col-12 col-md-7 col-xl-5 p-3" id='contact-item'>
+				<div class="row">
+					<div class="col-6 py-2 py-lg-3 pe-3">
+						<label>Name</label><br>
+						<input type="text" placeholder="Your name and last name">
+					</div>
+
+					<div class="col-6 py-2 py-lg-3 ps-2">
+						<label>E-mail</label><br>
+						<input type="email" placeholder="Your e-mail adress">
+					</div>
+					<div class="col-12 py-2 py-lg-3">
+						<label>Subject</label><br>
+						<input type="text" placeholder="Subject">
+					</div>
+					<div class="col-12 py-2 py-lg-3 texArea">
+						<label>Message</label><br>
+						<textarea id="tArea" placeholder="You can write your message here">
+						</textarea>
+					</div>
+					<div class="col text-center">
+						<button type="button" id="btn">Send</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- FOOTER -->
+		<div class="row align-items-center justify-content-center mt-5" id="footer">
+			<div class="col-12 text-center">
+				<h2>Anonim Cafe</h2>
+			</div>
+			<div class="col-auto px-3">
+				<i class="fa-brands fa-twitter"></i>
+			</div>
+			<div class="col-auto px-3">
+				<i class="fa-brands fa-facebook-f"></i>
+			</div>
+			<div class="col-auto px-3">
+				<i class="fa-brands fa-instagram"></i>
+			</div>
+			<div class="col-12 text-center px-3">
+				<p> All rights deserved. </p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Dancing+Script:wght@400;600;700&family=Ms+Madi&family=Quicksand:wght@400;500;700&family=Qwitcher+Grypen:wght@400;700&display=swap');
+/*    font-family: 'Antic Slab', serif;
+
+    font-family: 'Dancing Script', cursive;
+
+    font-family: 'Ms Madi', cursive;
+
+    font-family: 'Quicksand', sans-serif;
+
+    font-family: 'Qwitcher Grypen', cursive;*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+    color: whitesmoke;
+    padding: 0!important;
+    margin: 0!important;
+}
+a,
+a:link{
+    text-decoration: none;
+    color: whitesmoke;
+    outline: none;
+}
+a:visited{
+    text-decoration: none;
+    color: whitesmoke;
+    outline: none;
+}
+a:hover{
+    text-decoration: none;
+    color: whitesmoke;
+    outline: none;
+}
+
+#header{
+    background: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0,0,0,0.6),rgba(0, 0, 0, 0.9)), url("images/pic6.jpg"), fixed;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    height: 100vh;
+}
+p{
+    font-family: 'Quicksand', sans-serif;
+   font-size: 16px;
+}
+.navbar{background: rgba(0, 0, 0, 1);}
+.navbar .navigation{text-align: right; }
+
+.navbar .navigation ul li{
+    margin: 10px!important;
+    display: inline-block;
+    list-style: none;
+}
+.navbar .navigation ul li a{
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 22px;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    padding: 10px 20px!important;
+
+}
+.navbar .navigation ul li a::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    display:inline-block;
+    background: white;
+    position: absolute;
+    left: 0;
+    bottom: 0; 
+    transition: .4s;
+}
+.navbar .navigation ul li a:hover::after{width: 100%;}
+.navbar .navbar-toggler{padding: 10px!important;}
+.navbar .navbar-toggler:focus{
+ color: black;
+}
+/*.navbar .btn-close{outline: none;border: none}
+.navbar .btn-close:focus{outline: none!important;border: none}*/
+.navbar button i{font-size: 28px!important;color: white}
+.offcanvas-body ul li a{color: black;display: inline-block; padding-left: 30px!important}
+.offcanvas-body ul li a:hover{color: black;}
+.offcanvas-body ul li i{color: black}
+.header-text h2{font-size: 30px;}
+.header-text h2:first-letter{font-family: Qwitcher Grypen;font-size: 65px;}
+.header-text h2 span{font-size: 65px;font-family: Qwitcher Grypen;}
+/*ABOUT*/
+#aboutPage{
+    background-color: rgba(0, 0, 0, 1);
+    height: 95vh;
+}
+/*#aboutPage p{
+   font-family: 'Quicksand', sans-serif;
+   font-size: 16px;
+}*/
+#aboutPage .pic{
+  opacity: 0.9;
+}
+#aboutPage h2{
+    position: relative;
+}
+#aboutPage h2::after{
+    content: '';
+    width: 15%;
+    height: 2px;
+    background:whitesmoke;
+    display: block;/*Bu kısım önemli*/
+    margin: auto;
+    transition: .6s;
+}
+#aboutPage h2:hover::after{
+    width: 100%;
+}
+#aboutPage p{
+    text-align: justify;
+}
+/*PRODUCTS*/
+#products{
+    background: black;
+    height: 95vh;
+}
+#products h2{
+    position: relative;
+}
+#products h2::after{
+    content: '';
+    width: 15%;
+    height: 2px;
+    background:whitesmoke;
+    display: block;/*Bu kısım önemli*/
+    margin: auto;
+    transition: .6s;
+}
+#products h2:hover::after{
+    width: 100%;
+}
+#products h5, #products p{
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+}
+#products p{font-size: 15px;}
+h6{
+    font-size: 16px!important;
+}
+#moreBtn{
+    text-align: center;
+    margin-top: 70px!important;
+}
+
+#moreBtn button{
+    font-size: 26px;
+    color: black;
+    background: white;
+    border: none;
+    border-radius: 15%;
+    width: 18%;
+    padding: 4px!important;
+}
+#moreBtn button:hover, #moreBtn button:focus{
+    box-shadow: 0 0 10px white;
+}
+@media screen and (max-width: 900px){
+    #moreBtn button{
+        font-size: 24px;
+         width: 30%;
+         padding: 2px!important;
+    }
+
+}
+/*OUR SHOPS*/
+#shops{
+    background:rgba(0, 0, 0, 1.0);
+    height: 95vh;
+}
+#shops h2{
+    position: relative;
+}
+#shops h2::after{
+    content: '';
+    width: 15%;
+    height: 2px;
+    background:whitesmoke;
+    display: block;/*Bu kısım önemli*/
+    margin: auto;
+    transition: .6s;
+}
+#shops h2:hover::after{
+    width: 100%;
+}
+#shops .cafe-3 img,.cafe-1 img, .cafe-2 img{
+    border-radius: 0 45%;
+    box-shadow: 1px 5px 20px #532a09;
+    transition: .6s;
+
+}
+#shops .cafe-3 img:hover,.cafe-1 img:hover,.cafe-2 img:hover{
+    border-radius:0 5%;
+    box-shadow: 0px 0px 45px #532a09;
+
+}
+#shops h3{
+     font-family: 'Antic Slab', sans-serif;
+     font-size: 22px;
+}
+#shops p{
+     font-family: 'Quicksand', sans-serif;
+     font-size: 14px;
+}
+#shopDiv p{
+    text-align: justify;
+}
+.carousel-inner{
+    height:390px;
+    padding: 0 70px!important;
+    }
+
+.carousel-item img{
+    width: 410px;
+   height: auto;
+    }
+
+
+@media (581px<=width<=680px){
+.carousel-inner{
+    height: 420px;
+    }
+.carousel-item img{
+    width: 430px;
+   height: auto;
+    }
+         #contact #contact-item{font-size: 11px!important;}
+}
+@media (511px<=width<=580px){
+.carousel-inner{
+    height: 320px;
+    }
+    .carousel-item img{
+    width:310px;
+    height: auto;
+    }
+}
+
+@media (width<=510px){
+    .carousel-inner{
+    height: 300px;
+    }
+    .carousel-item img{
+    width: 300px;
+    height: auto;
+    }
+    .carousel-item h3{font-size: 16px!important;}
+     .carousel-item p{font-size: 12px!important;}
+  #contact-item input,
+  #contact-item label,
+  #contact-item textarea,
+  #contact-item button{font-size: 20px!important;}
+}
+/*CONTACT*/
+#contact{
+    background: linear-gradient(to right bottom,rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.6)),url('images/contact.jpg');
+    background-position: center;
+    background-size: cover;
+
+    height: 95vh;
+}
+#contact h2{
+    position: relative;
+}
+#contact h2::after{
+    content: '';
+    width: 15%;
+    height: 2px;
+    background:whitesmoke;
+    display: block;/*Bu kısım önemli*/
+    margin: auto;
+    transition: .6s;
+}
+#contact h2:hover::after{
+    width: 100%;
+}
+
+#contact input{
+    background: transparent;
+    border-width: 0 0 1px 0;
+    bordor-bottom: 1px solid white;
+    color: white;
+    outline: none;
+    width: 100%;
+    border-bottom: 2px solid white;
+}
+#contact input:focus{
+    border-bottom: 2px solid black;
+}
+
+#contact .texArea textarea{
+    background: transparent;
+    border-width: 0 0 2px 0;
+    bordor-bottom: 2px solid white;
+    color: whitesmoke!important;
+    outline: none;
+    width: 100%;
+    resize: none;
+}
+#contact .texArea textarea:focus{
+border-bottom: 2px solid black;
+}
+
+#contact #btn{
+    padding: 10px!important;
+    outline: none;
+    border: none;
+    border-radius: 0 15px;
+   background: black;
+    color: white;
+    width: 40%;
+    transition: .6s;
+}
+#contact #btn:hover{
+     background: white;
+    color: black;
+    border-radius:15px 0;
+}
+
+
+/*FOOTER*/
+#footer{
+    background: black;
+    height: 40vh;
+}
+#footer i{
+    color: white;
+    font-size: 45px;
+}
+#footer p{
+    font-size: 16px;
+     font-family: 'Antic Slab', serif;
+}
+
+#footer .fa-twitter:hover{color: #48cae4;}
+#footer .fa-facebook-f:hover{color: #3a86ff;}
+#footer .fa-instagram:hover{color: #ff006e}
